@@ -1,0 +1,8 @@
+[package]
+name = "deleter"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+object_store = { version = "0.12.1", features = ["gcp"] }
+tokio = { version = "1.45.1", features = ["rt-multi-thread"] }
